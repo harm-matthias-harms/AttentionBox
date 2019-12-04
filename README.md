@@ -1,6 +1,6 @@
 # AttentionBox
 
-AttentionBox: Efficient Object Proposal Generation based on [AttentionMask](https://www.inf.uni-hamburg.de/en/inst/ab/cv/people-alt/wilms/attentionmask.html). ([Bachelor Thesis](https://drive.google.com/file/d/1jqt-g4p6NDFy-xRlNABv9gpeUwdV3MUr/view?usp=sharing))
+AttentionBox: Efficient Object Proposal Generation based on [AttentionMask](https://www.inf.uni-hamburg.de/en/inst/ab/cv/people-alt/wilms/attentionmask.html). ([Bachelor Thesis](https://drive.google.com/file/d/1jqt-g4p6NDFy-xRlNABv9gpeUwdV3MUr/view?usp=sharing), [Slides](https://drive.google.com/open?id=16cXd6RzUyUmYswSAEyyNKWZt3UzBoTaC))
 
 In my bachelor thesis, I evaluated [AttentionMask](https://www.inf.uni-hamburg.de/en/inst/ab/cv/people-alt/wilms/attentionmask.html) with a box regressor replacing the segmentation module. With AttentionBox, I propose an efficient method generating object proposals with an average performance. AttentionBox decreases the runtime of AttentionMask by 32% because the boxes don't need to be derived from masks anymore. While running at 7fps, AttentionBox has a decent performance detecting small and tiny objects.
 
